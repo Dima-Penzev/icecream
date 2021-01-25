@@ -1,0 +1,106 @@
+body {
+    font-family: "DM Sans";
+    font-style: normal;
+}
+
+/*===head===*/
+
+.main-container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    padding-top: 37px;
+}
+
+.logo {
+    display: block;
+    margin-left: 46px;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin: 0;
+    padding: 0;
+    margin-left: 110px;
+    display: flex;
+    list-style: none;
+}
+
+.header-nav .item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.link-nav {
+    display: block;
+
+    text-decoration: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.3;
+
+    color: #ffffff;
+}
+
+.purchase {
+    margin-left: auto;
+    margin-right: 115px;
+    min-width: 159px;
+    height: 44px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+
+    border-radius: 22px;
+    border: none;
+    background: #ffffff;
+    color: #d41443;
+}
+
+.vector {
+    width: 6px;
+    height: 10px;
+    margin-left: 12px;
+}
+
+.cone {
+    background-color: #ffb8ca;
+}
+
+.title {
+    margin: 0;
+    width: 277px;
+
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.feature {
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 1.13;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #d41443;
+}
